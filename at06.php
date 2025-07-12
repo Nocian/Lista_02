@@ -11,7 +11,7 @@
   
 
 ?>
-<?php // FECHA O PHP ?>
+<?php ?>
 
 <p><a href="At06.html">Voltar ao formulário</a></p>
 <p><a href="Lista_02">Voltar à pasta</a></p>

@@ -22,7 +22,7 @@
     }
 
 ?>
-<?php // FECHA O PHP ?>
+<?php ?>
 
 <p><a href="At03.html">Voltar ao formulário</a></p>
 

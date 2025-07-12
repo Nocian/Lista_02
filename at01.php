@@ -8,22 +8,14 @@
 <body>
     <h1>Resultado do Salário Bruto Mensal</h1>
 
-    <?php // ABRE O PHP - TUDO AQUI DENTRO É CÓDIGO PHP
-
-    // 1. Verificar se o formulário foi enviado
-    // $_SERVER["REQUEST_METHOD"] == "POST" verifica se a página foi acessada por um envio de formulário POST.
-    // Isso evita que a pessoa acesse o At01.php diretamente sem preencher o formulário.
+    <?php 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-        // 2. Pegar os valores que vieram do formulário
-        // $_POST é uma "variável especial" do PHP que guarda todos os dados enviados por um formulário com method="post".
-        // O que estava no campo HTML com name="valorHora" agora está em $_POST['valorHora'].
-        // (float) e (int) são para garantir que os valores sejam números (com ou sem casas decimais) para a conta.
+        
         $valorHora = (float)$_POST['valorHora'];
         $horasSemana = (int)$_POST['horasSemana'];
 
-        // 3. Fazer o Cálculo
-        // Seguindo a fórmula do exercício: salario = valorHora * horasSemana * 4.5
+        
         $salario = $valorHora * $horasSemana * 4.5;
 
 
@@ -33,7 +25,7 @@
 
 
 ?>
-<?php // FECHA O PHP ?>
+<?php ?>
 
     <p><a href="At01.html">Voltar ao formulário</a></p>
 </body>

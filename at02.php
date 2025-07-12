@@ -10,7 +10,7 @@
     echo "<p>Valor em dolar: $ " . number_format($valorEmDolar, 2, ',', '.') . "</p>";
 
 ?>
-<?php // FECHA O PHP ?>
+<?php ?>
 
 <p><a href="At02.html">Voltar ao formulário</a></p>
 
